@@ -38,4 +38,4 @@ https://raw.githubusercontent.com/jn950/live/main/tv/pllive.txt
 [![GitHub stars](https://img.shields.io/github/stars/jn950/live)](https://github.com/jn950/live/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/jn950/live)](https://github.com/jn950/live/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/jn950/live)](https://github.com/jn950/live/issues)
-[![Star History Chart](https://api.star-history.com/svg?repos=jn950/live&type=Date)](https://star-history.com/#jn950/live&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=jn950/live&type=Date&legend=top-left)](https://star-history.com/#jn950/live&Date)
