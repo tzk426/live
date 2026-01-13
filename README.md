@@ -1,4 +1,4 @@
-# IPTV轮播源
+# IPTV直播源
 
 此项目通过其它直播源抓取集成一个轮播直播源。
 
@@ -14,16 +14,13 @@
 
 **导航**：https://iuaihub.github.io
 
-**体验地址**：
-https://raw.githubusercontent.com/jn950/live/main/tv/pllive.txt
 ---
 
 ## 直播源调用地址
 
-- **国内M3U**：每日更新
-- **国内TXT**：每日更新
-- **仓库文件加速 线路1**
-- **仓库文件加速 线路2**
+- **TXT**：每日双更
+- **仓库文件加速 轮播线路1**https://raw.githubusercontent.com/jn950/live/main/tv/pllive.txt
+- **仓库文件加速 酒店源线路2**
 
 ----
 
