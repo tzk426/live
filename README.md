@@ -18,7 +18,8 @@
 
 ## 直播源调用地址
 
-- **TXT**：每日双更
+- **M3U**：暂未提供
+- **TXT**：每日自动双更，若未更或错误，可进群提醒
 - **仓库文件加速 轮播线路1**https://raw.githubusercontent.com/jn950/live/main/tv/pllive.txt
 - **仓库文件加速 酒店源线路2**
 
