@@ -1,0 +1,410 @@
+#EXTM3U x-tvg-url="http://qyong.site:1234/playback.xml" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/momo.png" group-title="MO测试",2026-01-25
+http://my9.ltd/momo-480.mp4
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV1.png" group-title="央视频道",CCTV1
+http://183.185.150.127:9003/hls/1/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV1.png" group-title="央视频道",CCTV1
+http://171.118.202.132:9003/hls/1/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV2.png" group-title="央视频道",CCTV2
+http://183.185.150.127:9003/hls/2/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV2.png" group-title="央视频道",CCTV2
+http://171.118.202.132:9003/hls/2/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV3.png" group-title="央视频道",CCTV3
+http://183.185.150.127:9003/hls/3/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV3.png" group-title="央视频道",CCTV3
+http://171.118.202.132:9003/hls/3/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV4.png" group-title="央视频道",CCTV4
+http://183.185.150.127:9003/hls/4/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV4.png" group-title="央视频道",CCTV4
+http://171.118.202.132:9003/hls/4/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV5.png" group-title="央视频道",CCTV5
+http://171.118.202.132:9003/hls/5/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV5.png" group-title="央视频道",CCTV5
+http://183.185.150.127:9003/hls/5/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV5+.png" group-title="央视频道",CCTV5+
+http://171.118.202.132:9003/hls/6/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV5+.png" group-title="央视频道",CCTV5+
+http://183.185.150.127:9003/hls/6/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV6.png" group-title="央视频道",CCTV6
+http://171.118.202.132:9003/hls/7/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV6.png" group-title="央视频道",CCTV6
+http://183.185.150.127:9003/hls/7/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV7.png" group-title="央视频道",CCTV7
+http://171.118.202.132:9003/hls/8/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV7.png" group-title="央视频道",CCTV7
+http://183.185.150.127:9003/hls/8/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV8.png" group-title="央视频道",CCTV8
+http://171.118.202.132:9003/hls/9/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV8.png" group-title="央视频道",CCTV8
+http://183.185.150.127:9003/hls/9/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV9.png" group-title="央视频道",CCTV9
+http://171.118.202.132:9003/hls/10/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV9.png" group-title="央视频道",CCTV9
+http://183.185.150.127:9003/hls/10/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV10.png" group-title="央视频道",CCTV10
+http://183.185.150.127:9003/hls/11/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV10.png" group-title="央视频道",CCTV10
+http://171.118.202.132:9003/hls/11/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV11.png" group-title="央视频道",CCTV11
+http://183.185.150.127:9003/hls/12/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV11.png" group-title="央视频道",CCTV11
+http://171.118.202.132:9003/hls/12/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV12.png" group-title="央视频道",CCTV12
+http://183.185.150.127:9003/hls/13/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV12.png" group-title="央视频道",CCTV12
+http://171.118.202.132:9003/hls/13/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV13.png" group-title="央视频道",CCTV13
+http://183.185.150.127:9003/hls/14/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV13.png" group-title="央视频道",CCTV13
+http://171.118.202.132:9003/hls/14/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV14.png" group-title="央视频道",CCTV14
+http://171.118.202.132:9003/hls/15/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV14.png" group-title="央视频道",CCTV14
+http://183.185.150.127:9003/hls/15/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV15.png" group-title="央视频道",CCTV15
+http://183.185.150.127:9003/hls/16/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV15.png" group-title="央视频道",CCTV15
+http://171.118.202.132:9003/hls/16/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV16.png" group-title="央视频道",CCTV16
+http://171.118.202.132:9003/hls/17/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV16.png" group-title="央视频道",CCTV16
+http://183.185.150.127:9003/hls/17/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV17.png" group-title="央视频道",CCTV17
+http://171.118.202.132:9003/hls/18/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/CCTV17.png" group-title="央视频道",CCTV17
+http://183.185.150.127:9003/hls/18/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://171.118.202.132:9003/hls/33/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://183.185.150.127:9003/hls/33/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://171.118.202.132:9003/hls/35/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://183.185.150.127:9003/hls/35/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/东方卫视.png" group-title="卫视频道",东方卫视
+http://171.118.202.132:9003/hls/23/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/东方卫视.png" group-title="卫视频道",东方卫视
+http://183.185.150.127:9003/hls/23/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/北京卫视.png" group-title="卫视频道",北京卫视
+http://171.118.202.132:9003/hls/20/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/北京卫视.png" group-title="卫视频道",北京卫视
+http://183.185.150.127:9003/hls/20/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/广东卫视.png" group-title="卫视频道",广东卫视
+http://183.185.150.127:9003/hls/26/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/广东卫视.png" group-title="卫视频道",广东卫视
+http://171.118.202.132:9003/hls/26/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://171.118.202.132:9003/hls/21/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/安徽卫视.png" group-title="卫视频道",安徽卫视
+http://183.185.150.127:9003/hls/21/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://171.118.202.132:9003/hls/32/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/湖北卫视.png" group-title="卫视频道",湖北卫视
+http://183.185.150.127:9003/hls/32/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/江西卫视.png" group-title="卫视频道",江西卫视
+http://183.185.150.127:9003/hls/36/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/江西卫视.png" group-title="卫视频道",江西卫视
+http://171.118.202.132:9003/hls/36/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://171.118.202.132:9003/hls/31/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
+http://183.185.150.127:9003/hls/31/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://183.185.150.127:9003/hls/34/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/吉林卫视.png" group-title="卫视频道",吉林卫视
+http://171.118.202.132:9003/hls/34/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://171.118.202.132:9003/hls/37/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/辽宁卫视.png" group-title="卫视频道",辽宁卫视
+http://183.185.150.127:9003/hls/37/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/山西卫视.png" group-title="卫视频道",山西卫视
+http://171.118.202.132:9003/hls/19/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/山西卫视.png" group-title="卫视频道",山西卫视
+http://183.185.150.127:9003/hls/19/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://183.185.150.127:9003/hls/22/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/重庆卫视.png" group-title="卫视频道",重庆卫视
+http://171.118.202.132:9003/hls/22/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/福建卫视.png" group-title="卫视频道",福建卫视
+http://171.118.202.132:9003/hls/24/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/福建卫视.png" group-title="卫视频道",福建卫视
+http://183.185.150.127:9003/hls/24/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/甘肃卫视.png" group-title="卫视频道",甘肃卫视
+http://183.185.150.127:9003/hls/25/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/甘肃卫视.png" group-title="卫视频道",甘肃卫视
+http://171.118.202.132:9003/hls/25/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/广西卫视.png" group-title="卫视频道",广西卫视
+http://183.185.150.127:9003/hls/27/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/广西卫视.png" group-title="卫视频道",广西卫视
+http://171.118.202.132:9003/hls/27/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/海南卫视.png" group-title="卫视频道",海南卫视
+http://183.185.150.127:9003/hls/28/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/海南卫视.png" group-title="卫视频道",海南卫视
+http://171.118.202.132:9003/hls/28/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/河北卫视.png" group-title="卫视频道",河北卫视
+http://171.118.202.132:9003/hls/29/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/河北卫视.png" group-title="卫视频道",河北卫视
+http://183.185.150.127:9003/hls/29/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/河南卫视.png" group-title="卫视频道",河南卫视
+http://171.118.202.132:9003/hls/30/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/河南卫视.png" group-title="卫视频道",河南卫视
+http://183.185.150.127:9003/hls/30/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/内蒙卫视.png" group-title="卫视频道",内蒙卫视
+http://171.118.202.132:9003/hls/38/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/内蒙卫视.png" group-title="卫视频道",内蒙卫视
+http://183.185.150.127:9003/hls/38/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/宁夏卫视.png" group-title="卫视频道",宁夏卫视
+http://183.185.150.127:9003/hls/39/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/宁夏卫视.png" group-title="卫视频道",宁夏卫视
+http://171.118.202.132:9003/hls/39/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/青海卫视.png" group-title="卫视频道",青海卫视
+http://171.118.202.132:9003/hls/40/index.m3u8
+#EXTINF:-1 tvg-logo="http://raw.githubusercontent.com/jn950/live/refs/heads/main/tvlogo/青海卫视.png" group-title="卫视频道",青海卫视
+http://183.185.150.127:9003/hls/40/index.m3u8
+
+#EXTINF:-1 svg-id="CCTV1综合" svg-name="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="咪咕央视",CCTV1综合
+http://qyong.site:1234/608807420
+#EXTINF:-1 svg-id="CCTV2财经" svg-name="CCTV2财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="咪咕央视",CCTV2财经
+http://qyong.site:1234/631780532
+#EXTINF:-1 svg-id="CCTV3综艺" svg-name="CCTV3综艺" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/864/202204010055_1626679244629_H32_1080.webp" group-title="咪咕央视",CCTV3综艺
+http://qyong.site:1234/624878271
+#EXTINF:-1 svg-id="CCTV4中文国际" svg-name="CCTV4中文国际" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/947/202204010054_1626679413842_H32_1080.webp" group-title="咪咕央视",CCTV4中文国际
+http://qyong.site:1234/631780421
+#EXTINF:-1 svg-id="CCTV5体育" svg-name="CCTV5体育" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/516/171/202204010048_1626679603804_H32_1080.webp" group-title="咪咕央视",CCTV5体育
+http://qyong.site:1234/641886683
+#EXTINF:-1 svg-id="CCTV5+体育赛事" svg-name="CCTV5+体育赛事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/516/288/202204010048_1626679712843_H32_1080.webp" group-title="咪咕央视",CCTV5+体育赛事
+http://qyong.site:1234/641886773
+#EXTINF:-1 svg-id="CCTV6电影" svg-name="CCTV6电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/872/202204010054_1626679914432_H32_1080.webp" group-title="咪咕央视",CCTV6电影
+http://qyong.site:1234/624878396
+#EXTINF:-1 svg-id="CCTV7国防军事" svg-name="CCTV7国防军事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/622/202204010054_1626680119210_H32_1080.webp" group-title="咪咕央视",CCTV7国防军事
+http://qyong.site:1234/673168121
+#EXTINF:-1 svg-id="CCTV8电视剧" svg-name="CCTV8电视剧" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/868/202204010049_1626677150014_H32_1080.webp" group-title="咪咕央视",CCTV8电视剧
+http://qyong.site:1234/624878356
+#EXTINF:-1 svg-id="CCTV9纪录" svg-name="CCTV9纪录" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/624/202204010054_1626677545059_H32_1080.webp" group-title="咪咕央视",CCTV9纪录
+http://qyong.site:1234/673168140
+#EXTINF:-1 svg-id="CCTV10科教" svg-name="CCTV10科教" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/874/202204010054_1626677767922_H32_1080.webp" group-title="咪咕央视",CCTV10科教
+http://qyong.site:1234/624878405
+#EXTINF:-1 svg-id="CCTV11戏曲" svg-name="CCTV11戏曲" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/988/610/202204010054_1626677922732_H32_1080.webp" group-title="咪咕央视",CCTV11戏曲
+http://qyong.site:1234/667987558
+#EXTINF:-1 svg-id="CCTV12社会与法" svg-name="CCTV12社会与法" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/627/202204010053_1626678108629_H32_1080.webp" group-title="咪咕央视",CCTV12社会与法
+http://qyong.site:1234/673168185
+#EXTINF:-1 svg-id="CCTV13新闻" svg-name="CCTV13新闻" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/208/864/202204010051_2202208864_H32_1080.webp" group-title="咪咕央视",CCTV13新闻
+http://qyong.site:1234/608807423
+#EXTINF:-1 svg-id="CCTV14少儿" svg-name="CCTV14少儿" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/875/202204010054_1626678147073_H32_1080.webp" group-title="咪咕央视",CCTV14少儿
+http://qyong.site:1234/624878440
+#EXTINF:-1 svg-id="CCTV15音乐" svg-name="CCTV15音乐" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/628/202204010054_1626678245130_H32_1080.webp" group-title="咪咕央视",CCTV15音乐
+http://qyong.site:1234/673168223
+#EXTINF:-1 svg-id="CCTV17农业农村" svg-name="CCTV17农业农村" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/631/202204010052_1626678428060_H32_1080.webp" group-title="咪咕央视",CCTV17农业农村
+http://qyong.site:1234/673168256
+#EXTINF:-1 svg-id="CCTV4欧洲" svg-name="CCTV4欧洲" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/315/202204010055_1626831010992_H32_1080.webp" group-title="咪咕央视",CCTV4欧洲
+http://qyong.site:1234/608807419
+#EXTINF:-1 svg-id="CCTV4美洲" svg-name="CCTV4美洲" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/344/202204010055_1626830746239_H32_1080.webp" group-title="咪咕央视",CCTV4美洲
+http://qyong.site:1234/608807416
+#EXTINF:-1 svg-id="CGTN外语纪录" svg-name="CGTN外语纪录" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/356/202502251602_1740470541608_H32_1080.webp" group-title="咪咕央视",CGTN外语纪录
+http://qyong.site:1234/609006487
+#EXTINF:-1 svg-id="CGTN阿拉伯语" svg-name="CGTN阿拉伯语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/303/202502251557_1740470230464_H32_1080.webp" group-title="咪咕央视",CGTN阿拉伯语
+http://qyong.site:1234/609154345
+#EXTINF:-1 svg-id="CGTN西班牙语" svg-name="CGTN西班牙语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/337/202502251600_1740470437874_H32_1080.webp" group-title="咪咕央视",CGTN西班牙语
+http://qyong.site:1234/609006450
+#EXTINF:-1 svg-id="CGTN法语" svg-name="CGTN法语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/324/202502251559_1740470371334_H32_1080.webp" group-title="咪咕央视",CGTN法语
+http://qyong.site:1234/609006476
+#EXTINF:-1 svg-id="CGTN俄语" svg-name="CGTN俄语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/332/202502251558_1740470314603_H32_1080.webp" group-title="咪咕央视",CGTN俄语
+http://qyong.site:1234/609006446
+#EXTINF:-1 svg-id="老故事" svg-name="老故事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/002/202405081702_1715158648861_H32_1080.webp" group-title="咪咕央视",老故事
+http://qyong.site:1234/884121956
+#EXTINF:-1 svg-id="发现之旅" svg-name="发现之旅" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/893/202405081702_1715158828498_H32_1080.webp" group-title="咪咕央视",发现之旅
+http://qyong.site:1234/624878970
+#EXTINF:-1 svg-id="中学生" svg-name="中学生" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/355/202405081702_1715158115119_H32_1080.webp" group-title="咪咕央视",中学生
+http://qyong.site:1234/708869532
+#EXTINF:-1 svg-id="CGTN" svg-name="CGTN" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/196/407/202204010052_1642124778350_H32_1080.webp" group-title="咪咕央视",CGTN
+http://qyong.site:1234/609017205
+#EXTINF:-1 svg-id="赛事最经典" svg-name="赛事最经典" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/592/947/202204010047_5101034296_H32_1080.webp" group-title="咪咕体育",赛事最经典
+http://qyong.site:1234/646596895
+#EXTINF:-1 svg-id="体坛名栏汇" svg-name="体坛名栏汇" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/687/202204010048_5101034219_H32_1080.webp" group-title="咪咕体育",体坛名栏汇
+http://qyong.site:1234/629943305
+#EXTINF:-1 svg-id="四海钓鱼" svg-name="四海钓鱼" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/184/202508040856_5100132656_H32_1080.webp" group-title="咪咕体育",四海钓鱼
+http://qyong.site:1234/637444975
+#EXTINF:-1 svg-id="陕西体育休闲" svg-name="陕西体育休闲" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/189/202512011438_1764571080735_H32_1080.webp" group-title="咪咕体育",陕西体育休闲
+http://qyong.site:1234/956909356
+#EXTINF:-1 svg-id="武术世界" svg-name="武术世界" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/201/202509251348_1758698474363_H32_1080.webp" group-title="咪咕体育",武术世界
+http://qyong.site:1234/958475359
+#EXTINF:-1 svg-id="快乐垂钓" svg-name="快乐垂钓" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/317/202512290851_1766567876635_H32_1080.webp" group-title="咪咕体育",快乐垂钓
+http://qyong.site:1234/961930263
+#EXTINF:-1 svg-id="辽宁体育休闲" svg-name="辽宁体育休闲" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/329/202512311920_1766735267312_H32_1080.webp" group-title="咪咕体育",辽宁体育休闲
+http://qyong.site:1234/962067526
+#EXTINF:-1 svg-id="东方卫视" svg-name="东方卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/185/202508040856_5100043384_H32_1080.webp" group-title="咪咕卫视",东方卫视
+http://qyong.site:1234/651632648
+#EXTINF:-1 svg-id="江苏卫视" svg-name="江苏卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/199/408/202104022140_5100156802_H32_1080.webp" group-title="咪咕卫视",江苏卫视
+http://qyong.site:1234/623899368
+#EXTINF:-1 svg-id="广东卫视" svg-name="广东卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/428/795/202107191524_2202428795_H32_1080.webp" group-title="咪咕卫视",广东卫视
+http://qyong.site:1234/608831231
+#EXTINF:-1 svg-id="北京卫视" svg-name="北京卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/306/202512091630_1765269008692_H32_1080.webp" group-title="咪咕卫视",北京卫视
+http://qyong.site:1234/630287636
+#EXTINF:-1 svg-id="辽宁卫视" svg-name="辽宁卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/198/202509221600_5101043014_H32_1080.webp" group-title="咪咕卫视",辽宁卫视
+http://qyong.site:1234/630291707
+#EXTINF:-1 svg-id="河北卫视" svg-name="河北卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/316/202512310003_1766556161260_H32_1080.webp" group-title="咪咕卫视",河北卫视
+http://qyong.site:1234/962042070
+#EXTINF:-1 svg-id="江西卫视" svg-name="江西卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/492/202303201551_1658134104486_H32_1080.webp" group-title="咪咕卫视",江西卫视
+http://qyong.site:1234/783847495
+#EXTINF:-1 svg-id="河南卫视" svg-name="河南卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/585/202304031400_1679994692427_H32_1080.webp" group-title="咪咕卫视",河南卫视
+http://qyong.site:1234/790187291
+#EXTINF:-1 svg-id="陕西卫视" svg-name="陕西卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/020/475/202207191732_1658131370190_H32_1080.webp" group-title="咪咕卫视",陕西卫视
+http://qyong.site:1234/738910838
+#EXTINF:-1 svg-id="大湾区卫视" svg-name="大湾区卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/322/852/202304081513_1677570739176_H32_1080.webp" group-title="咪咕卫视",大湾区卫视
+http://qyong.site:1234/608917627
+#EXTINF:-1 svg-id="湖北卫视" svg-name="湖北卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/163/202501231715_1658138615859_H32_1080.webp" group-title="咪咕卫视",湖北卫视
+http://qyong.site:1234/947472496
+#EXTINF:-1 svg-id="吉林卫视" svg-name="吉林卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/164/202501231715_1658138733016_H32_1080.webp" group-title="咪咕卫视",吉林卫视
+http://qyong.site:1234/947472500
+#EXTINF:-1 svg-id="青海卫视" svg-name="青海卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/166/202501231715_1658138545016_H32_1080.webp" group-title="咪咕卫视",青海卫视
+http://qyong.site:1234/947472506
+#EXTINF:-1 svg-id="东南卫视" svg-name="东南卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/182/202507151427_1744624877917_H32_1080.webp" group-title="咪咕卫视",东南卫视
+http://qyong.site:1234/849116810
+#EXTINF:-1 svg-id="海南卫视" svg-name="海南卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/165/202501231715_1658138869802_H32_1080.webp" group-title="咪咕卫视",海南卫视
+http://qyong.site:1234/947472502
+#EXTINF:-1 svg-id="海峡卫视" svg-name="海峡卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/183/202507151427_1690875420570_H32_1080.webp" group-title="咪咕卫视",海峡卫视
+http://qyong.site:1234/849119120
+#EXTINF:-1 svg-id="中国农林卫视" svg-name="中国农林卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/186/202508051621_1754370274934_H32_1080.webp" group-title="咪咕卫视",中国农林卫视
+http://qyong.site:1234/956904896
+#EXTINF:-1 svg-id="兵团卫视" svg-name="兵团卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/192/202508061552_1754385902654_H32_1080.webp" group-title="咪咕卫视",兵团卫视
+http://qyong.site:1234/956923145
+#EXTINF:-1 svg-id="宁夏卫视" svg-name="宁夏卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/262/202510241641_1658131953051_H32_1080.webp" group-title="咪咕卫视",宁夏卫视
+http://qyong.site:1234/738910535
+#EXTINF:-1 svg-id="重庆卫视" svg-name="重庆卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/305/202512021827_1658131240998_H32_1080.webp" group-title="咪咕卫视",重庆卫视
+http://qyong.site:1234/738910914
+#EXTINF:-1 svg-id="三沙卫视" svg-name="三沙卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/307/202512081329_1764320715088_H32_1080.webp" group-title="咪咕卫视",三沙卫视
+http://qyong.site:1234/961023778
+#EXTINF:-1 svg-id="上海新闻综合" svg-name="上海新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/325/202512311824_5100001716_H32_1080.webp" group-title="咪咕地方",上海新闻综合
+http://qyong.site:1234/651632657
+#EXTINF:-1 svg-id="上视东方影视" svg-name="上视东方影视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/002/274/202105271333_5100001715_2_H32_1080.webp" group-title="咪咕地方",上视东方影视
+http://qyong.site:1234/617290047
+#EXTINF:-1 svg-id="上海第一财经" svg-name="上海第一财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/008/312/202209271630_2201008312_H32_1080.webp" group-title="咪咕地方",上海第一财经
+http://qyong.site:1234/608780988
+#EXTINF:-1 svg-id="南京新闻综合" svg-name="南京新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/863/202307121521_1689144372702_H32_1080.webp" group-title="咪咕地方",南京新闻综合
+http://qyong.site:1234/838109047
+#EXTINF:-1 svg-id="南京教科" svg-name="南京教科" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/865/202307121700_1689146730747_H32_1080.webp" group-title="咪咕地方",南京教科
+http://qyong.site:1234/838153729
+#EXTINF:-1 svg-id="南京十八" svg-name="南京十八" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/864/202307121658_1689146948769_H32_1080.webp" group-title="咪咕地方",南京十八
+http://qyong.site:1234/838151753
+#EXTINF:-1 svg-id="体育休闲" svg-name="体育休闲" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/554/202104022139_5100186459_H32_1080.webp" group-title="咪咕地方",体育休闲
+http://qyong.site:1234/626064707
+#EXTINF:-1 svg-id="江苏城市" svg-name="江苏城市" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/508/202104022138_5100186409_H32_1080.webp" group-title="咪咕地方",江苏城市
+http://qyong.site:1234/626064714
+#EXTINF:-1 svg-id="江苏国际" svg-name="江苏国际" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/577/202104022139_5100186482_H32_1080.webp" group-title="咪咕地方",江苏国际
+http://qyong.site:1234/626064674
+#EXTINF:-1 svg-id="江苏教育" svg-name="江苏教育" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/287/493/202104022139_5101012819_H32_1080.webp" group-title="咪咕地方",江苏教育
+http://qyong.site:1234/628008321
+#EXTINF:-1 svg-id="江苏影视" svg-name="江苏影视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/517/202104022138_5100186424_H32_1080.webp" group-title="咪咕地方",江苏影视
+http://qyong.site:1234/626064697
+#EXTINF:-1 svg-id="江苏综艺" svg-name="江苏综艺" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/513/202104022039_5100186420_H32_1080.webp" group-title="咪咕地方",江苏综艺
+http://qyong.site:1234/626065193
+#EXTINF:-1 svg-id="公共新闻" svg-name="公共新闻" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/520/202104022138_5100186429_H32_1080.webp" group-title="咪咕地方",公共新闻
+http://qyong.site:1234/626064693
+#EXTINF:-1 svg-id="盐城新闻综合" svg-name="盐城新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/360/202212301654_5102012617_H32_1080.webp" group-title="咪咕地方",盐城新闻综合
+http://qyong.site:1234/639731825
+#EXTINF:-1 svg-id="淮安新闻综合" svg-name="淮安新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/363/202104022141_5102012618_H32_1080.webp" group-title="咪咕地方",淮安新闻综合
+http://qyong.site:1234/639731826
+#EXTINF:-1 svg-id="泰州新闻综合" svg-name="泰州新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/354/202104071213_5102012615_H32_1080.webp" group-title="咪咕地方",泰州新闻综合
+http://qyong.site:1234/639731818
+#EXTINF:-1 svg-id="连云港新闻综合" svg-name="连云港新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/369/202104022140_5102012621_H32_1080.webp" group-title="咪咕地方",连云港新闻综合
+http://qyong.site:1234/639731715
+#EXTINF:-1 svg-id="宿迁新闻综合" svg-name="宿迁新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/357/202104022141_5102012616_H32_1080.webp" group-title="咪咕地方",宿迁新闻综合
+http://qyong.site:1234/639731832
+#EXTINF:-1 svg-id="徐州新闻综合" svg-name="徐州新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/368/202104022141_5102012620_H32_1080.webp" group-title="咪咕地方",徐州新闻综合
+http://qyong.site:1234/639731747
+#EXTINF:-1 svg-id="优漫卡通" svg-name="优漫卡通" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/553/202104022139_5100186455_H32_1080.webp" group-title="咪咕地方",优漫卡通
+http://qyong.site:1234/626064703
+#EXTINF:-1 svg-id="江阴新闻综合" svg-name="江阴新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/177/202506121842_1749616874292_H32_1080.webp" group-title="咪咕地方",江阴新闻综合
+http://qyong.site:1234/955227979
+#EXTINF:-1 svg-id="南通新闻综合" svg-name="南通新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/178/202506121842_1749617000499_H32_1080.webp" group-title="咪咕地方",南通新闻综合
+http://qyong.site:1234/955227985
+#EXTINF:-1 svg-id="宜兴新闻综合" svg-name="宜兴新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/179/202506121843_1749617094510_H32_1080.webp" group-title="咪咕地方",宜兴新闻综合
+http://qyong.site:1234/955227996
+#EXTINF:-1 svg-id="溧水新闻综合" svg-name="溧水新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/349/202506201638_1750408486645_H32_1080.webp" group-title="咪咕地方",溧水新闻综合
+http://qyong.site:1234/639737327
+#EXTINF:-1 svg-id="陕西银龄" svg-name="陕西银龄" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/191/202508051746_1754371397446_H32_1080.webp" group-title="咪咕地方",陕西银龄
+http://qyong.site:1234/956909362
+#EXTINF:-1 svg-id="陕西都市青春" svg-name="陕西都市青春" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/190/202508051746_1754371284700_H32_1080.webp" group-title="咪咕地方",陕西都市青春
+http://qyong.site:1234/956909358
+#EXTINF:-1 svg-id="陕西秦腔" svg-name="陕西秦腔" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/188/202508051741_1754370560985_H32_1080.webp" group-title="咪咕地方",陕西秦腔
+http://qyong.site:1234/956909303
+#EXTINF:-1 svg-id="陕西新闻资讯" svg-name="陕西新闻资讯" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/187/202512011439_1764571160925_H32_1080.webp" group-title="咪咕地方",陕西新闻资讯
+http://qyong.site:1234/956909289
+#EXTINF:-1 svg-id="财富天下" svg-name="财富天下" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/193/202508061552_1754385779498_H32_1080.webp" group-title="咪咕地方",财富天下
+http://qyong.site:1234/956923159
+#EXTINF:-1 svg-id="镇江新闻综合" svg-name="镇江新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/365/202104022141_5102012619_H32_1080.webp" group-title="咪咕地方",镇江新闻综合
+http://qyong.site:1234/639731783
+#EXTINF:-1 svg-id="辽宁公共" svg-name="辽宁公共" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/323/202512310910_1766735322616_H32_1080.webp" group-title="咪咕地方",辽宁公共
+http://qyong.site:1234/962045223
+#EXTINF:-1 svg-id="辽宁生活" svg-name="辽宁生活" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/324/202512310910_1766735378296_H32_1080.webp" group-title="咪咕地方",辽宁生活
+http://qyong.site:1234/962045226
+#EXTINF:-1 svg-id="辽宁影视剧" svg-name="辽宁影视剧" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/326/202512311919_1766735207197_H32_1080.webp" group-title="咪咕地方",辽宁影视剧
+http://qyong.site:1234/962067517
+#EXTINF:-1 svg-id="宁夏文旅" svg-name="宁夏文旅" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/328/202512311920_1766735094938_H32_1080.webp" group-title="咪咕地方",宁夏文旅
+http://qyong.site:1234/962067523
+#EXTINF:-1 svg-id="宁夏经济" svg-name="宁夏经济" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/327/202512311920_1766734845550_H32_1080.webp" group-title="咪咕地方",宁夏经济
+http://qyong.site:1234/962067520
+#EXTINF:-1 svg-id="经典香港电影" svg-name="经典香港电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/242/089/202508211805_1755769511908_H32_1080.webp" group-title="咪咕影视",经典香港电影
+http://qyong.site:1234/625703337
+#EXTINF:-1 svg-id="抗战经典影片" svg-name="抗战经典影片" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/002/717/202507241513_1753340553498_H32_1080.webp" group-title="咪咕影视",抗战经典影片
+http://qyong.site:1234/617432318
+#EXTINF:-1 svg-id="新片放映厅" svg-name="新片放映厅" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/035/175/202405061742_1714988159903_H32_1080.webp" group-title="咪咕影视",新片放映厅
+http://qyong.site:1234/619495952
+#EXTINF:-1 svg-id="CHC影迷电影" svg-name="CHC影迷电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/176/202504161629_1744788999453_H32_1080.webp" group-title="咪咕影视",CHC影迷电影
+http://qyong.site:1234/952383261
+#EXTINF:-1 svg-id="CHC动作电影" svg-name="CHC动作电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/554/795/202308221159_1692676746119_H32_1080.webp" group-title="咪咕影视",CHC动作电影
+http://qyong.site:1234/644368714
+#EXTINF:-1 svg-id="CHC家庭影院" svg-name="CHC家庭影院" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/554/911/202308221200_1692676843082_H32_1080.webp" group-title="咪咕影视",CHC家庭影院
+http://qyong.site:1234/644368373
+#EXTINF:-1 svg-id="和美乡途轮播台" svg-name="和美乡途轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/525/202504151721_1744708812840_H32_1080.webp" group-title="咪咕影视",和美乡途轮播台
+http://qyong.site:1234/713591450
+#EXTINF:-1 svg-id="南方影视" svg-name="南方影视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2206/173/738/202304081513_2206173738_H32_1080.webp" group-title="咪咕影视",南方影视
+http://qyong.site:1234/614961829
+#EXTINF:-1 svg-id="中国天气" svg-name="中国天气" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/296/202511061701_1762241901460_H32_1080.webp" group-title="咪咕新闻",中国天气
+http://qyong.site:1234/959986621
+#EXTINF:-1 svg-id="CETV1" svg-name="CETV1" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/150/202407181432_1721283631491_H32_1080.webp" group-title="咪咕教育",CETV1
+http://qyong.site:1234/923287154
+#EXTINF:-1 svg-id="CETV2" svg-name="CETV2" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/152/202407181432_1721283782530_H32_1080.webp" group-title="咪咕教育",CETV2
+http://qyong.site:1234/923287211
+#EXTINF:-1 svg-id="CETV4" svg-name="CETV4" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/154/202407181433_1721283870297_H32_1080.webp" group-title="咪咕教育",CETV4
+http://qyong.site:1234/923287339
+#EXTINF:-1 svg-id="山东教育" svg-name="山东教育" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/199/202509241938_1758698577926_H32_1080.webp" group-title="咪咕教育",山东教育
+http://qyong.site:1234/609154353
+#EXTINF:-1 svg-id="熊猫01高清" svg-name="熊猫01高清" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/634/723/202206081044_2202634723_H32_1080.webp" group-title="咪咕熊猫",熊猫01高清
+http://qyong.site:1234/609158151
+#EXTINF:-1 svg-id="熊猫1" svg-name="熊猫1" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/699/202209211759_2200200699_H32_1080.webp" group-title="咪咕熊猫",熊猫1
+http://qyong.site:1234/608933610
+#EXTINF:-1 svg-id="熊猫2" svg-name="熊猫2" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/717/202209211759_2200200717_H32_1080.webp" group-title="咪咕熊猫",熊猫2
+http://qyong.site:1234/608933640
+#EXTINF:-1 svg-id="熊猫3" svg-name="熊猫3" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/738/202209211759_2200200738_H32_1080.webp" group-title="咪咕熊猫",熊猫3
+http://qyong.site:1234/608934619
+#EXTINF:-1 svg-id="熊猫4" svg-name="熊猫4" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/771/202209211800_2200200771_H32_1080.webp" group-title="咪咕熊猫",熊猫4
+http://qyong.site:1234/608934721
+#EXTINF:-1 svg-id="熊猫5" svg-name="熊猫5" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/791/202209211800_2200200791_H32_1080.webp" group-title="咪咕熊猫",熊猫5
+http://qyong.site:1234/608935104
+#EXTINF:-1 svg-id="熊猫6" svg-name="熊猫6" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/817/202209211800_2200200817_H32_1080.webp" group-title="咪咕熊猫",熊猫6
+http://qyong.site:1234/608935797
+#EXTINF:-1 svg-id="熊猫7" svg-name="熊猫7" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/192/831/202209211800_2200192831_H32_1080.webp" group-title="咪咕熊猫",熊猫7
+http://qyong.site:1234/609169286
+#EXTINF:-1 svg-id="熊猫8" svg-name="熊猫8" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/192/881/202209211800_2200192881_H32_1080.webp" group-title="咪咕熊猫",熊猫8
+http://qyong.site:1234/609169287
+#EXTINF:-1 svg-id="熊猫9" svg-name="熊猫9" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/192/899/202209211800_2200192899_H32_1080.webp" group-title="咪咕熊猫",熊猫9
+http://qyong.site:1234/609169226
+#EXTINF:-1 svg-id="熊猫10" svg-name="熊猫10" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/192/937/202209211800_2200192937_H32_1080.webp" group-title="咪咕熊猫",熊猫10
+http://qyong.site:1234/609169285
+#EXTINF:-1 svg-id="最强综艺趴" svg-name="最强综艺趴" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/654/202204010047_5101034202_H32_1080.webp" group-title="咪咕综艺",最强综艺趴
+http://qyong.site:1234/629942228
+#EXTINF:-1 svg-id="嘉佳卡通" svg-name="嘉佳卡通" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2206/172/388/202304101530_2206172388_H32_1080.webp" group-title="咪咕少儿",嘉佳卡通
+http://qyong.site:1234/614952364
+#EXTINF:-1 svg-id="经典动画大集合" svg-name="经典动画大集合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/652/202204010055_5101034205_H32_1080.webp" group-title="咪咕少儿",经典动画大集合
+http://qyong.site:1234/629942219
+#EXTINF:-1 svg-id="新动漫" svg-name="新动漫" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/319/202512290851_1766568052605_H32_1080.webp" group-title="咪咕少儿",新动漫
+http://qyong.site:1234/961930269
+#EXTINF:-1 svg-id="新动力量创一流" svg-name="新动力量创一流" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/523/202506060000_1749138941378_H32_1080.webp" group-title="咪咕纪实",新动力量创一流
+http://qyong.site:1234/713589837
+#EXTINF:-1 svg-id="中华特产" svg-name="中华特产" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/295/202511061701_1762241728018_H32_1080.webp" group-title="咪咕纪实",中华特产
+http://qyong.site:1234/959986618
+#EXTINF:-1 svg-id="环球旅游" svg-name="环球旅游" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/200/202509251348_1758698362959_H32_1080.webp" group-title="咪咕纪实",环球旅游
+http://qyong.site:1234/958475356
+#EXTINF:-1 svg-id="茶" svg-name="茶" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/320/202512290851_1766567984830_H32_1080.webp" group-title="咪咕纪实",茶
+http://qyong.site:1234/961930369
