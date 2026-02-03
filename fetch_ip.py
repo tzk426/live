@@ -55,7 +55,8 @@ def fetch_and_process():
     for attempt in range(max_retries):
         try:
             log(f"尝试获取内容 (第 {attempt + 1}/{max_retries} 次)...")
-            response = requests.get(url, headers=headers, timeout=30, proxies={"http": None, "https": None})
+            # 增加超时时间到 60 秒，并显式禁用代理以避免干扰
+            response = requests.get(url, headers=headers, timeout=60, proxies={"http": None, "https": None})
             response.raise_for_status()
             break
         except Exception as e:
