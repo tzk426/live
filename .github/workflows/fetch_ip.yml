@@ -32,20 +32,12 @@ jobs:
           python fetch_ip.py
 
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # 1. 暂存成果
-          mv tv/pllive.txt pllive.txt.tmp
-          
-          # 2. 同步远程状态 (解决 non-fast-forward)
-          git fetch origin main
-          git checkout main
-          git reset --hard origin/main
-          
-          # 3. 还原成果并提交
-          mv pllive.txt.tmp tv/pllive.txt
           git add tv/pllive.txt
           
           if git diff --cached --quiet; then
@@ -55,5 +47,5 @@ jobs:
           
           git commit -m "📺 Auto update merged live data: $(date +'%Y-%m-%d %H:%M:%S')"
           
-          # 4. 推送 (不带 origin main 强制参数，让 git 使用默认行为)
+          # 直接推送，actions/checkout 会自动处理认证
           git push
