@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # 获取完整历史以确保 rebase 成功
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,28 +37,36 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # 配置 Git 身份
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # 1. 暂存新生成的成果文件
-          mv tv/pllive.txt pllive_new.txt
+          # 1. 暂存新生成的数据文件，防止被 reset 掉
+          if [ -f "tv/pllive.txt" ]; then
+            mv tv/pllive.txt pllive_new.txt
+          else
+            echo "Error: tv/pllive.txt not found!"
+            exit 1
+          fi
           
-          # 2. 强制同步远程仓库状态，确保本地 HEAD 绝对对齐
+          # 2. 强制同步远程仓库状态，消除 non-fast-forward 隐患
           git fetch origin main
           git checkout main
           git reset --hard origin/main
           
-          # 3. 还原成果文件
+          # 3. 将新数据覆盖回去
           mv pllive_new.txt tv/pllive.txt
           git add tv/pllive.txt
           
-          # 4. 检查是否有变化，有变化则强制推送
+          # 4. 检查内容是否有实际变化
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
           
+          # 5. 提交变更
           git commit -m "📺 Auto update merged live data: $(date +'%Y-%m-%d %H:%M:%S')"
           
-          # 5. 使用 --force 强制推送，彻底解决 non-fast-forward 问题
-          git push origin main --force
+          # 6. 推送更新
+          # 如果仍然担心冲突，可以使用 --force，对于纯数据更新仓库这是安全的
+          git push origin main
