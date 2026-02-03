@@ -40,23 +40,25 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # 1. 暂存成果
+          # 1. 暂存新生成的成果文件
           mv tv/pllive.txt pllive_new.txt
           
-          # 2. 强制拉取远程最新状态并重置，确保没有冲突
+          # 2. 强制同步远程仓库状态，确保本地 HEAD 绝对对齐
           git fetch origin main
           git checkout main
           git reset --hard origin/main
           
-          # 3. 还原成果并检查是否有变化
+          # 3. 还原成果文件
           mv pllive_new.txt tv/pllive.txt
           git add tv/pllive.txt
           
+          # 4. 检查是否有变化，有变化则强制推送
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
           
-          # 4. 提交并推送
           git commit -m "📺 Auto update merged live data: $(date +'%Y-%m-%d %H:%M:%S')"
-          git push origin main
+          
+          # 5. 使用 --force 强制推送，彻底解决 non-fast-forward 问题
+          git push origin main --force
