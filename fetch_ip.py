@@ -4,11 +4,13 @@ import re
 import socket
 import time
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor
 
 def log(msg):
-    timestamp = datetime.now().strftime('%H:%M:%S')
+    # 获取北京时间 (UTC+8)
+    beijing_time = datetime.now(timezone.utc) + timedelta(hours=8)
+    timestamp = beijing_time.strftime('%H:%M:%S')
     print(f"[{timestamp}] {msg}")
     sys.stdout.flush()
 
@@ -122,8 +124,9 @@ def fetch_and_process():
         ptxt_dir = "template"
         all_pllive_content = []
         
-        # 新的头部格式
-        current_date = datetime.now().strftime('%Y-%m-%d')
+        # 新的头部格式：显式使用北京时间 (UTC+8)
+        beijing_now = datetime.now(timezone.utc) + timedelta(hours=8)
+        current_date = beijing_now.strftime('%Y-%m-%d')
         all_pllive_content.append("MoMo更新,#genre#")
         all_pllive_content.append(f"{current_date},https://my9.ltd/momo-480.mp4")
         all_pllive_content.append("") # 头部后空行
