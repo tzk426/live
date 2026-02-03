@@ -1,0 +1,38 @@
+name: Fetch Remote IP Data
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 每天北京时间上午10点运行 (UTC 2:00)
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  fetch-and-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run fetch and test script
+        env:
+          IP_SOURCE_URL: ${{ secrets.IP_SOURCE_URL }}
+        run: |
+          python fetch_ip.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add tv/pllive.txt
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update merged live data: $(date +'%Y-%m-%d %H:%M:%S')" && git push)
