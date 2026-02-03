@@ -36,17 +36,22 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          
+          # 暂存生成的本地文件
+          mv tv/pllive.txt pllive.txt.tmp
+          
+          # 强制同步远程最新状态
+          git fetch origin main
+          git reset --hard origin/main
+          
+          # 还原生成的文件
+          mv pllive.txt.tmp tv/pllive.txt
+          
           git add tv/pllive.txt
-          # 如果没有变化则退出
-          git diff --cached --quiet && exit 0
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
           git commit -m "Auto update merged live data: $(date +'%Y-%m-%d %H:%M:%S')"
-          # 循环尝试拉取变基并推送，最多尝试 3 次
-          for i in {1..3}; do
-            git fetch origin main
-            git rebase origin/main
-            if git push origin main; then
-              exit 0
-            fi
-            sleep 5
-          done
-          exit 1
+          git push origin main
