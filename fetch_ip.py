@@ -46,10 +46,23 @@ def fetch_and_process():
     
     log("正在获取远程 IP 内容并进行测速...")
     
-    try:
-        response = requests.get(url, headers=headers, timeout=15, proxies={"http": None, "https": None})
-        response.raise_for_status()
-        text = response.text
+    max_retries = 3
+    response = None
+    for attempt in range(max_retries):
+        try:
+            log(f"尝试获取内容 (第 {attempt + 1}/{max_retries} 次)...")
+            response = requests.get(url, headers=headers, timeout=30, proxies={"http": None, "https": None})
+            response.raise_for_status()
+            break
+        except Exception as e:
+            if attempt < max_retries - 1:
+                log(f"请求失败: {e}，正在重试...")
+                time.sleep(2)
+            else:
+                log(f"所有重试均失败: {e}")
+                raise
+
+    text = response.text
         
         # 0. 保存原始内容到 remote_data/tv1288_ips.txt
         remote_data_dir = "remote_data"
