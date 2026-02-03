@@ -2,12 +2,15 @@ name: Fetch Remote IP Data
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # 每天北京时间上午10点运行 (UTC 2:00)
+    - cron: '0 18 * * *'  # 每天北京时间凌晨2点 (UTC 18:00)
+    - cron: '30 2 * * *'  # 每天北京时间上午10点30分 (UTC 2:30)
   workflow_dispatch:      # 允许手动触发
 
 jobs:
   fetch-and-sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write     # 赋予写入权限以允许推送改动
 
     steps:
       - name: Checkout code
