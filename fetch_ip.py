@@ -37,10 +37,10 @@ def replace_id_in_line(line, new_id):
     return re.sub(pattern, replacement, line)
 
 def fetch_and_process():
-    # 从环境变量读取 URL，如果不存在则使用默认值（本地测试用）
-    url = os.environ.get('IP_SOURCE_URL', 'https://tv1288.xyz/ip.php')
+    # 从环境变量读取 URL，确保不泄露硬编码地址
+    url = os.environ.get('IP_SOURCE_URL')
     if not url:
-        log("错误: 未设置 IP_SOURCE_URL 环境变量且没有默认值")
+        log("错误: 未设置 IP_SOURCE_URL 环境变量")
         return False
         
     headers = {
@@ -118,7 +118,7 @@ def fetch_and_process():
         sorted_isp_list.extend(other_isps)
 
         # 1. 整合 pllive.txt
-        pllive_file = os.path.join("tv", "pllive.txt")
+        pllive_file = os.path.join("tv", "pllive2.txt")
         ptxt_dir = "template"
         all_pllive_content = []
         
