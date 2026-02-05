@@ -132,16 +132,16 @@ def fetch_and_process():
         header_content.append(f"{current_date},https://my9.ltd/momo-480.mp4")
         
         # 从 template_直播中国.txt 提取内容并添加到 header_content
-         scenic_template_path = os.path.join(ptxt_dir, "template_直播中国.txt")
-         if os.path.exists(scenic_template_path):
-             log(f"正在从 {scenic_template_path} 提取内容...")
-             with open(scenic_template_path, "r", encoding="utf-8") as sf:
-                 for line in sf:
-                     line = line.strip()
-                     if line:
-                         header_content.append(line)
-         else:
-             log(f"警告: 找不到风景区模板文件 {scenic_template_path}")
+        scenic_template_path = os.path.join(ptxt_dir, "template_直播中国.txt")
+        if os.path.exists(scenic_template_path):
+            log(f"正在从 {scenic_template_path} 提取内容...")
+            with open(scenic_template_path, "r", encoding="utf-8") as sf:
+                for line in sf:
+                    line = line.strip()
+                    if line:
+                        header_content.append(line)
+        else:
+            log(f"警告: 找不到风景区模板文件 {scenic_template_path}")
         
         # 准备频道内容
         isp_processed_content = {} # 存储每个 ISP 处理后的频道行
