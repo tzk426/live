@@ -29,10 +29,6 @@
 
 ## 截图
 
-![截图1](/img/live1.png)
-
-![截图2](/img/live2.png)
-
 ![截图3](/img/live3.png)
 
 ![截图4](/img/live4.jpg)
